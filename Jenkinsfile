@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'GIT_URL', defaultValue: 'https://github.com/example/repository.git', description: 'Git repository URL')
+        string(name: 'GIT_URL', defaultValue: 'https://github.com/harshada-zurunge/Maven-based-Java-Project.git', description: 'Git repository URL')
         string(name: 'MAVEN_GOALS', defaultValue: 'clean install', description: 'Maven goals to execute')
         booleanParam(name: 'RUN_TESTS', defaultValue: true, description: 'Run tests during the build')
     }
